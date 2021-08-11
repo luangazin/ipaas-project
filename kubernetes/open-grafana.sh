@@ -1,0 +1,1 @@
+minikube service grafana-np -n ipaas

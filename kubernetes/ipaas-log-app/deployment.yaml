@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ipaas-log-app
+  namespace: ipaas
+spec:
+  selector:
+    matchLabels:
+      run: ipaas-log-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: ipaas-log-app
+    spec:
+      containers:
+      - name: ipaas-log-app
+        image: luangazin/ipaas-log-app:0.0.1
+        ports:
+        - containerPort: 8080

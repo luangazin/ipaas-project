@@ -1,0 +1,1 @@
+docker build . -t luangazin/caller-app:0.0.1
