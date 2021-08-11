@@ -13,7 +13,7 @@ cd ./ipaas-log-app/
 ```
 Alterar os arquivos abaixo para um novo repository caso não queira utilizar as imagens já existentes.
 ```bash
-./build-docker.sh&&./publish-image.sh
+./build-docker.sh && ./publish-image.sh
 ```
 
 # Build do projeto caller-app
@@ -22,7 +22,7 @@ cd ./caller-app/
 ```
 Alterar os arquivos abaixo para um novo repository caso não queira utilizar as imagens já existentes.
 ```bash
-./build-docker.sh&&./publish-image.sh
+./build-docker.sh && ./publish-image.sh
 ```
 
 # Deploy no kubernetes
