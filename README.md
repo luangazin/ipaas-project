@@ -1,5 +1,5 @@
 #  Projeto
-Para facilitar o processo as imagens docker já estão disponiveis no [Doker Hub][docekr-hub-id] então caso queira prosiga para o step Deploy no kubernetes
+Para facilitar o processo as imagens docker já estão disponiveis no [Doker Hub][docekr-hub-id] então caso queira prossiga para o step Deploy no kubernetes
 
 # Ferramentas para subir o projeto no kubernetes
 - kubectl (https://kubernetes.io/docs/tasks/tools/)
